@@ -3,7 +3,7 @@ r\_
 
 [![dependencies Status](https://david-dm.org/MrRacoon/r_/status.svg)](https://david-dm.org/MrRacoon/r_)
 
-A quick way to play with ImmutableJS from the command line.
+A quick way to play with [RamdaJS][Ramda] from the command line.
 
 Usage
 -----
@@ -31,3 +31,4 @@ npm install -g
 nimmu
 ```
 
+[Ramda]: http://ramdajs.com/docs/
