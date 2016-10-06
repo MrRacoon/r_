@@ -1,0 +1,38 @@
+{
+  "name": "r_",
+  "version": "0.0.1",
+  "description": "like n_, but preloaded with ramdaJs",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "repl",
+    "n_",
+    "ramda",
+    "Ramda"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRacoon/r_.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "bin": {
+    "r_": "bin/r_"
+  },
+  "lib": {
+    "index": "lib/index.js"
+  },
+  "author": "Erik Sutherland <erik.misu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRacoon/r_/issues"
+  },
+  "homepage": "https://github.com/MrRacoon/r_#readme",
+  "dependencies": {
+    "ramda": "^0.22.1"
+  }
+}
