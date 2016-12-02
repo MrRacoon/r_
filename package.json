@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/MrRacoon/r_#readme",
   "dependencies": {
-    "ramda": "^0.22.1"
+    "ramda": "^0.22.1",
+    "ramda-fantasy": "^0.7.0"
   }
 }
