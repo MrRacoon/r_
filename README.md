@@ -8,15 +8,17 @@ A quick way to play with [RamdaJS][Ramda] from the command line.
 Usage
 -----
 
-After starting the repl, you will get a typical node prompt. Use `R` to get to
-Ramda.
+After starting the repl, you will get a typical node prompt. but, all of
+Ramda's functions should be availible. You shouldn't even have to reference
+`R`! (It's there if you want it though. So you can copy and paste common online
+code into the repl).
 
 ```javascript
 $ r_
-λ > R.add(1)(1)
+λ > add(1)(1)
 2
 
-λ > R.view(R.lensProp('a'), { a: 3 })
+λ > view(lensProp('a'), { a: 3 })
 3
 ```
 
